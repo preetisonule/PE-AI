@@ -1,0 +1,4 @@
+node_modules
+chat_model.pkl
+vectorizer.pkl
+venv

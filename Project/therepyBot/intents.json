@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?"],
+      "responses": [
+        "Hello, it’s nice to see you. How are you feeling today?",
+        "Hey there 🌿 I’m here to listen — what’s been on your mind?",
+        "Hi! Take a deep breath. You’re safe to share whatever you’re feeling."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I'm feeling sad", "I feel down", "I'm depressed", "I feel lonely", "I want to cry"],
+      "responses": [
+        "I am really sorry you’re feeling this way. It’s okay to let it out. Do you want to talk about what’s making you feel this way?",
+        "That sounds heavy 😔 You don’t have to go through it alone. I’m here to listen.",
+        "You’re not alone in this, truly. Everyone struggles sometimes. What helps you feel a little better when you’re sad?"
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": ["I'm anxious", "I feel nervous", "I'm worried", "I have anxiety", "My heart is racing"],
+      "responses": [
+        "It sounds like your mind’s running fast. Try taking a deep breath in... and slowly let it out. What’s been worrying you lately?",
+        "Anxiety can feel overwhelming, but you’re doing your best — and that’s enough.",
+        "It’s okay to feel anxious sometimes. Want to talk about what’s been making you feel this way?"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I'm stressed", "Too much work", "I'm overwhelmed", "I can't handle this"],
+      "responses": [
+        "That sounds tough. Let’s slow down for a second. What’s been stressing you the most?",
+        "You’ve got a lot on your plate, huh? Remember — it’s okay to pause and breathe. You’re doing fine.",
+        "You’re handling more than you realize. Let’s talk about one thing that’s been bothering you lately."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I feel lazy", "I need motivation", "I lost focus", "I can’t do this anymore"],
+      "responses": [
+        "Even the strongest people have low days. Maybe start small — one tiny step today is still progress.",
+        "You’ve overcome tough moments before, haven’t you? You can do it again 💪",
+        "You don’t have to be perfect — just consistent. What’s one small thing you can do right now?"
+      ]
+    },
+    {
+      "tag": "selfesteem",
+      "patterns": ["I feel worthless", "I hate myself", "I'm not good enough"],
+      "responses": [
+        "You are absolutely worthy, even when it doesn’t feel that way 💛. Can you tell me what made you feel like this?",
+        "It hurts to feel that way, but I promise — your feelings don’t define your worth.",
+        "You matter. The world is better because you’re in it. What’s been making you feel down about yourself?"
+      ]
+    },
+    {
+      "tag": "relax",
+      "patterns": ["I want to relax", "I'm tense", "Help me calm down"],
+      "responses": [
+        "Okay, let’s try a short breathing exercise 🫶 — Inhale for 4… hold for 4… exhale for 4… and again.",
+        "Close your eyes for a second. Let go of the tension in your shoulders. You’re doing great.",
+        "Let’s focus on one calming thought — something that brings you peace. What is it for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Thanks", "Talk later"],
+      "responses": [
+        "Take care of yourself 🌼 You did really well today.",
+        "Goodbye for now. Remember, healing takes time — and that’s perfectly okay.",
+        "I’m proud of you for opening up. Be gentle with yourself 💛"
+      ]
+    }
+  ]
+}
